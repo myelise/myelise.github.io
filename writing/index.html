@@ -1,0 +1,27 @@
+---
+layout: default
+title: Lotus Elise S1&#58; бортовой журнал
+---
+        <div class="site-wrapper--big">
+
+            <div class="site-wrapper--small">
+
+	            <div class="filters">
+                    <hr>
+	            	<ul class="medium__toc">
+					{% for post in site.posts %}
+						{% if post.category == 'medium' %}
+		            		<li>
+		            			<time datetime="{{ post.date }}">{{ post.date | date: "%B %d %Y" }}</time>
+		            			<a href="{{ post.url }}">{{ post.title }}</a>
+		            		</li>
+            			{% endif %}
+            		{% endfor %}
+					</ul>
+                    <hr class="flip">	
+	            </div>
+
+                {% include copy.html %}
+
+            </div>
+        </div>

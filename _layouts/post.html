@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+        <div class="site-wrapper--big site-wrapper--bignohead">
+
+            <div class="site-wrapper--small">
+
+                <div class="breadcrumb">
+                    <hr>
+                    <p><a href="{{ site.baseurl }}">Lotus Elise S1</a> <span class="separator">></span> <a href="../../../../writing/">Бортовой Журнал</a> <span class="separator">></span> {{ page.title }}</p>
+                    <hr class="flip">
+                </div>
+
+                <div class="post__medium">
+                    <h1>{{ page.title }}</h1>
+                    <div class="medium__meta">
+                        <hr>
+                        <p>Запись от {{ page.date | date: "%B %d %Y" }}
+                        <hr class="flip">
+                    </div>
+                    {{ content }}
+                </div>
+                <hr>
+                {% include copy.html %}
+
+            </div>
+        </div>

@@ -1,0 +1,10 @@
+.sass-cache/*
+.DS_Store
+config.rb
+.htaccess
+progress/*
+sass/progress.scss
+css/progress.css
+_site/
+_layouts/progress.html
+_layouts/progress-post.html
