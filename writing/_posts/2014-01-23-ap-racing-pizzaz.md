@@ -7,25 +7,25 @@ category: medium
 Посылка из Англии дошла неожиданно быстро - я даже не успел вернуться из отпуска. Курьер должен был доставить домой, но после двух попыток сдался =). Съездил сегодня в офис EMS, забрал коробку, внутри обнаружил две пиццы... 
 
 <figure>
-	<a href="/img/posts/apr01.jpg"><img src="/img/posts/apr01.jpg"></a>
+	<a href="/img/posts/apr01.JPG"><img src="/img/posts/apr01.JPG"></a>
 </figure>
 
 А в них - аккуратно запакованные тормозные диски =)
 
 <figure>
-	<a href="/img/posts/apr02.jpg"><img src="/img/posts/apr02.jpg"></a>
+	<a href="/img/posts/apr02.JPG"><img src="/img/posts/apr02.JPG"></a>
 </figure>
 <figure>	
-	<a href="/img/posts/apr03.jpg"><img src="/img/posts/apr03.jpg"></a>
+	<a href="/img/posts/apr03.JPG"><img src="/img/posts/apr03.JPG"></a>
 </figure>
 
 Т.к. правый задний диск разлетелся от удара на куски, нужно было заказывать новый. Решил сразу проапгрейдится и купить двусоставные диски увеличенного диаметра (290 мм против 282 мм в стоке). 
 
 <figure>	
-	<a href="/img/posts/apr05.jpg"><img src="/img/posts/apr05.jpg"></a>
+	<a href="/img/posts/apr05.JPG"><img src="/img/posts/apr05.JPG"></a>
 </figure>
 <figure>
-	<a href="/img/posts/apr04.jpg"><img src="/img/posts/apr04.jpg"></a>
+	<a href="/img/posts/apr04.JPG"><img src="/img/posts/apr04.JPG"></a>
 </figure>
 
 На сайте написано, что они легче стоковых, но, как я потом выяснил - это не так. Вес примерно такой же, несмотря на центральную часть из аллюминия. Зато благодаря увеличенному диаметру и аллюминиевому центру, они лучше охлаждаются. Уже занося их домой, подумал, что можно поставить их вперёд, а передние переставить назад.
