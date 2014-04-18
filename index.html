@@ -12,29 +12,24 @@ title: Lotus Elise S1&#58; бортовой журнал
             <div class="site-wrapper--small">
 
 				<div class="timeline">
-				{% for post in site.posts %}
-					{% if post.category == 'timeline' %}
-					    <div class="post__timeline {{ post.tags | join:' ' }}">
-					    	<div class="timeline__meta">
-								<time datetime="{{ post.date }}">
-									{{ post.date | date: "%B" }}<small>{{ post.date | date: "%Y" }}</small>
-								</time>	
-							</div>
-							<div class="timeline__body">
-								{% if post.quote %}
-									{{ post.content }}
-									<blockquote>
-										<span class="quote">&#8220;<br>&#8221;</span>
-										<p>{{ post.quote }}</p>
-									</blockquote>
-								{% else %}
-									{{ post.content }}
-								{% endif %}
-							    <hr>
-							</div>
-					    </div>
-					{% endif %}
-				{% endfor %}
+                    {% for post in site.posts %}
+                        <div class="post__timeline {{ post.tags | join:' ' }}">
+                            <div class="timeline__meta">
+                                <time datetime="{{ post.date }}">
+                                    {{ post.date | date: "%B" }}<small>{{ post.date | date: "%Y" }}</small>
+                                </time> 
+                            </div>
+                            <div class="timeline__body">
+                                {% if post.link %}
+                                    <h3 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="icon-link"></i></h3>
+                                {% else %}
+                                    <h3><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+                                    <p>{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 140 }}{% endif %}</p>
+                                {% endif %}
+                                <hr>
+                            </div>
+                        </div>
+                    {% endfor %}
 				</div>
 
                 {% include copy.html %}
